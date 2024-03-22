@@ -1,0 +1,252 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+section {
+    padding: 20px;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 70px 0;
+}
+
+.menu-item img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+.specials {
+    padding: 20px;
+}
+
+
+.combo-item {
+    margin-bottom: 30px;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.contact {
+    padding: 20px;
+}
+
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+.contact-info .email{
+    font-weight: bold;
+    color: blue; 
+}
+.contact-info .phone{
+    font-weight: bold;
+    color: blue; 
+}
+
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightblue;
+}
+
+
+
+.combo-item img:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.combo-item img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+
+.combo-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+
+.combo-item .price {
+    font-weight: bold;
+    color: blue; 
+}
+
+.menu-item img:hover {
+    transform: scale(1.1);
+}
+
+.order {
+    padding: 20px;
+}
+
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+button {
+    background-color: green; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen; 
+}
+
+.feedback {
+    padding: 20px;
+}
+
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+button {
+    background-color: yellow; 
+    color: black; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: dark yellow; 
+}
+
+.about {
+    padding: 20px;
+}
+
+
+.about p {
+    margin-bottom: 15px;
+}
+
+
+.about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}

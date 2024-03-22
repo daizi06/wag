@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Order Now - WAG1 RESTUARANT</title>
+</head>
+<body>
+    <header>
+        <h1>WAG1 RESTUARANT</h1>
+        <p>Delicious food delivered to your doorstep</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="special.html">Special Combo</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="order.html">Order Now</a></li>
+            <li><a href="feedback.html">Feedbacks</a></li>
+        </ul>
+    </nav>
+
+    <section class="order">
+        <h2>Order Now</h2>
+
+        <p>Place your order now and enjoy a delicious meal delivered to your doorstep. Fill out the form below:</p>
+
+        <form action="#" method="post" id="orderForm">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="address">Delivery Address:</label>
+            <textarea id="address" name="address" rows="4" required></textarea>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="order">Your Order:</label>
+           
+            <select id="order" name="Order" required>
+                <option value="" selected disabled>Place your Order</option>
+                <option value="Burger">Chicken Burger</option>
+                <option value="Pizza">Margherita Pizza</option>
+                <option value="Sushi">Sushi Platter</option>
+                <option value="Smoothie">Trophical Smoothie</option>
+                <option value="Shawarma">Chicken Shawarma</option>
+                <option value="Combo">Family Feast Combo</option>
+                <option value="Combo">Breakfast Combo</option>
+                <option value="Combo">Quick Lunch Combo</option>
+            </select>
+
+            <button type="submit" onclick="submitOrder()">place order</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 WAG1 RESTUARANT. All rights reserved.</p>
+    </footer>
+</body>
+</html>
